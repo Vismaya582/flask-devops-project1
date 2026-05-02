@@ -24,7 +24,7 @@ jobs:
         run: python -c "from app import app; print('App imported successfully')"
 
       - name: Build Docker image
-        run: docker build -t flask-devops-app:${{ github.sha }} .
+        run: docker build -t flask-dev-app:${{ github.sha }} .
 
   push-and-deploy:
     runs-on: ubuntu-latest
