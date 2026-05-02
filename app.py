@@ -13,7 +13,7 @@ APP_ENV = os.getenv("APP_ENV", "development")
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Hello from my DevOps project",
+        "message": "Hello from my DevOps project - Vismaya - v2",
         "version": APP_VERSION,
         "environment": APP_ENV
     })
