@@ -24,9 +24,6 @@ EKS deployment updated with new image
         ↓
 Internet → AWS ALB → K8s Ingress → Service → Pod (Flask app)
 ```
-
-![Architecture](architecture.png)
-
 ---
 
 ## Tech Stack
